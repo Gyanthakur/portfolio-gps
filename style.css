@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 	font-family: sans-serif;
 }
 body {
@@ -117,10 +117,10 @@ body {
 	box-shadow: 0 0 1.2rem #0ef;
 }
 .img {
-	width: 15%;
-	height: 50%;
+	width: 25%;
+	height: 70%;
 	position: absolute;
-	margin-left: 50rem;
+	margin-left: 60rem;
 	border: 0.5rem solid #0ef;
 	border-radius: 60%;
 	box-shadow: 0 0 1.2rem #0ef, 0 0 1.5rem rgb(226, 21, 106),
@@ -227,6 +227,11 @@ body {
 	border-radius: 1.2rem;
 	transition: background 0.5s, transform 0.5s;
 	box-shadow: 1px 1px 1.2rem #012290f7, 1px 1px 2.5rem #0053b8f7;
+}
+.services-list p{
+	font-size: large;
+	justify-content: center;
+	align-items: center;
 }
 .services-list div i {
 	font-size: 3.1rem;
@@ -520,12 +525,8 @@ section {
 	grid-template-columns: repeat(auto-fit, minmax(369px, auto));
 	flex-wrap: wrap;
 	margin-right: 2rem;
-	margin-top: 35rem;
+	margin-top: 1rem;
 	margin-left: 3rem;
-	/* width: 50%;
-	margin-left: 15rem; */
-	
-
 }
 .project-title{
 	margin-bottom: 5rem;
@@ -548,7 +549,7 @@ section {
 	width: 100%;
 	height: 0;
 	background: linear-gradient(rgba(225, 62, 62, 0.1), rgb(148, 235, 174));
-	position: absolute;
+	/* position: absolute; */
 	border-radius: .5rem;
 	left: 0;
 	bottom: 0;
@@ -564,11 +565,12 @@ section {
 }
 .layer h5 {
 	color: #000;
-	background: linear-gradient(#9995e0,#87e9b3,#e480cb);
+	background: linear-gradient(#9995e0,#877def,#e480cb);
 	font-size: 3.2rem;
 	font-weight: 600;
-	margin-bottom: 1rem;
-	margin-top: 2rem;
+	margin: auto;
+	/* margin-bottom: 11rem;
+	margin-top: 5rem; */
 }
 .layer p {
 	color: #000;
@@ -589,14 +591,14 @@ section {
 }
 .layer a{
 	position: absolute;
-	margin-bottom: .1rem;
+	margin-bottom: 7.1rem;
 }
 .row:hover img {
 	transform: scale(1.1);
 }
 
 .row:hover .layer {
-	height: 100%;
+	height: 70%;
 }
 
 
