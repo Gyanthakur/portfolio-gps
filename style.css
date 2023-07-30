@@ -526,9 +526,24 @@ section {
 	width: 5rem;
 	height: 5rem;
 }
-@media (max-width: 650px) {
-	.skill_img {
+@media (max-width: 640px) {
+	.skill_img ,.skill_row img{
 		margin-left: 4rem;
+	}
+}
+@media (max-width: 670px) {
+	.skill_img ,.skill_row img{
+		margin-left: 5rem;
+	}
+}
+@media (max-width: 690px) {
+	.skill_img ,.skill_row img{
+		margin-left: 6rem;
+	}
+}
+@media (max-width: 700px) {
+	.skill_img ,.skill_row img{
+		margin-left: 7rem;
 	}
 }
 @media (max-width: 585px) {
