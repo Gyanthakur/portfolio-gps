@@ -995,14 +995,14 @@ form textarea {
 	.last-text{
 		/* margin: 5rem; */
 		margin-top: 15rem;
-		width: 75vh;
+		/* width: 75vh; */
 	}
 } 
  @media (max-width: 465px) {
 	.last-text{
 		/* margin: 5rem; */
 		margin-top: 15rem;
-		width: 82vh;
+		/* width: 82vh; */
 	}
 } 
 
