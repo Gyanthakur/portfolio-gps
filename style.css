@@ -971,6 +971,16 @@ form textarea {
 		padding: 5px;
 	}
 }
+@media (max-width: 500px) {
+	.login,.login_container form input,.btn {
+		 margin-left: 6rem;
+	}
+} 
+@media (max-width: 600px) {
+	.login,.login_container form input,.btn {
+		 margin-left: 3rem;
+	}
+} 
 
  @media (max-width: 865px) {
 	.last-text{
@@ -984,14 +994,14 @@ form textarea {
  @media (max-width: 615px) {
 	.last-text{
 		/* margin: 5rem; */
-		margin-top: 10rem;
+		margin-top: 15rem;
 		width: 75vh;
 	}
 } 
  @media (max-width: 465px) {
 	.last-text{
 		/* margin: 5rem; */
-		margin-top: 10rem;
+		margin-top: 15rem;
 		width: 82vh;
 	}
 } 
