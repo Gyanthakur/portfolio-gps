@@ -19,7 +19,7 @@ Thank you for your interest in contributing to my portfolio website! Your contri
    - **Fork the Repository:**
      Click the "Fork" button on the top right to create your own fork of the repository.
    - **Clone the Repository:**
-     Clone your forked repository to your local machine using `git clone https://github.com/your-username/portfolio-website.git`.
+     Clone your forked repository to your local machine using ```git clone https://github.com/your-username/portfolio-website.git```.
 
 ### 4. **Making Changes:**
    - **Create a New Branch:**
